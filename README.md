@@ -1,6 +1,6 @@
 # Sistema de Gerenciamento de Tarefas - TechFlow Solutions
 
-[![CI](https://github.com/carlosxnhenrique745-sudo/projeto_fecaf/actions/workflows/ci.yml/badge.svg)](https://github.com/carlosxnhenrique745-sudo/projeto_fecaf/actions/workflows/ci.yml)
+[![CI](https://github.com/carlosxnnhenrique745-sudo/projeto_fecaf/actions/workflows/ci.yml/badge.svg)](https://github.com/carlosxnnhenrique745-sudo/projeto_fecaf/actions/workflows/ci.yml)
 
 Relatório de cobertura (GitHub Pages): https://carlosxnhenrique745-sudo.github.io/projeto_fecaf/
 
