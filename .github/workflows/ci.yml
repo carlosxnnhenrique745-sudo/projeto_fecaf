@@ -2,9 +2,9 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, principal ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, principal ]
 
 jobs:
   build:
@@ -37,7 +37,7 @@ jobs:
     name: Publish coverage to GitHub Pages
     needs: build
     runs-on: ubuntu-latest
-    if: ${{ github.ref == 'refs/heads/main' }}
+    if: ${{ github.ref == 'refs/heads/main' || github.ref == 'refs/heads/principal' }}
     permissions:
       pages: write
       id-token: write
