@@ -2,6 +2,8 @@
 
 [![CI](https://github.com/carlosxnhenrique745-sudo/projeto_fecaf/actions/workflows/ci.yml/badge.svg)](https://github.com/carlosxnhenrique745-sudo/projeto_fecaf/actions/workflows/ci.yml)
 
+Relatório de cobertura (GitHub Pages): https://carlosxnhenrique745-sudo.github.io/projeto_fecaf/
+
 ## Sobre o Projeto
 Este projeto simula o desenvolvimento de um sistema de gerenciamento de tarefas para a empresa fictícia TechFlow Solutions. O sistema permite acompanhar o fluxo de trabalho em tempo real, priorizar tarefas críticas e monitorar o desempenho da equipe.
 
