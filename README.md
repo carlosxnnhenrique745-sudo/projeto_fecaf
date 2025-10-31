@@ -1,8 +1,8 @@
-# Sistema de Gerenciamento de Tarefas - TechFlow Solutions
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/aff6dc0e-26af-43d4-97bf-b37a85757771" /># Sistema de Gerenciamento de Tarefas - TechFlow Solutions
 
 [![CI](https://github.com/carlosxnnhenrique745-sudo/projeto_fecaf/actions/workflows/ci.yml/badge.svg)](https://github.com/carlosxnnhenrique745-sudo/projeto_fecaf/actions/workflows/ci.yml)
 
-Relatório de cobertura (GitHub Pages): https://carlosxnhenrique745-sudo.github.io/projeto_fecaf/
+Relatório de cobertura: https://carlosxnnhenrique745-sudo.github.io/projeto_fecaf/
 
 ## Sobre o Projeto
 Este projeto simula o desenvolvimento de um sistema de gerenciamento de tarefas para a empresa fictícia TechFlow Solutions. O sistema permite acompanhar o fluxo de trabalho em tempo real, priorizar tarefas críticas e monitorar o desempenho da equipe.
