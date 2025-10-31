@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFlow - Gerenciador de Tarefas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>TechFlow Solutions</h1>
+            <h2>Sistema de Gerenciamento de Tarefas</h2>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="nav-tabs">
+            <div class="nav-tab active">Gerenciar Tarefas</div>
+            <div class="nav-tab" onclick="window.location.href='dashboard.html'">Dashboard</div>
+        </div>
+    </div>
+
+    <main class="container">
+        <section class="task-form">
+            <h3>Nova Tarefa</h3>
+            <form id="taskForm">
+                <div class="form-group">
+                    <label for="title">Título:</label>
+                    <input type="text" id="title" name="title" required>
+                </div>
+                <div class="form-group">
+                    <label for="description">Descrição:</label>
+                    <textarea id="description" name="description" rows="3"></textarea>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="status">Status:</label>
+                        <select id="status" name="status">
+                            <option value="pendente">Pendente</option>
+                            <option value="em_andamento">Em Andamento</option>
+                            <option value="concluido">Concluído</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="priority">Prioridade:</label>
+                        <select id="priority" name="priority">
+                            <option value="baixa">Baixa</option>
+                            <option value="média">Média</option>
+                            <option value="alta">Alta</option>
+                        </select>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Adicionar Tarefa</button>
+            </form>
+        </section>
+
+        <section class="task-list">
+            <h3>Tarefas</h3>
+            <div class="filters">
+                <select id="filterStatus">
+                    <option value="">Todos os Status</option>
+                    <option value="pendente">Pendente</option>
+                    <option value="em_andamento">Em Andamento</option>
+                    <option value="concluido">Concluído</option>
+                </select>
+                <select id="filterPriority">
+                    <option value="">Todas as Prioridades</option>
+                    <option value="baixa">Baixa</option>
+                    <option value="média">Média</option>
+                    <option value="alta">Alta</option>
+                </select>
+            </div>
+            <div id="tasks" class="tasks-container">
+                <!-- As tarefas serão inseridas aqui via JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 TechFlow Solutions - Projeto de Engenharia de Software</p>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
